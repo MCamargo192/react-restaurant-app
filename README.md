@@ -8,7 +8,7 @@ This project was developed using React JS, and bootstrapped with Create React Ap
 
 This app was deployed using Heroku (https://www.heroku.com)
 
-This project can be accessed using the domain https://react-ny-restaurants.herokuapp.com/
+This project can be accessed using the domain https://react-restaurants-app.herokuapp.com/
 
 ### Project Development
 
