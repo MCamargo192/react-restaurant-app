@@ -12,7 +12,7 @@ const Restaurants = props => {
     const { borough } = queryString.parse(props.query);
     useEffect(() => {
         setLoading(true);
-        fetch(`https://morning-crag-64182.herokuapp.com/api/restaurants?page=${page}&perPage=10${borough ? `&borough=${borough}` : ''}`)
+        fetch(`https://restaurants-api-2021.herokuapp.com/api/restaurants?page=${page}&perPage=10${borough ? `&borough=${borough}` : ''}`)
             .then(res => res.json())
             .then(data => {
                 setLoading(false);
