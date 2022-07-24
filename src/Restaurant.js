@@ -8,7 +8,7 @@ const Restaurant = props => {
 
     useEffect(() => {
         setLoading(true);
-        fetch(`https://morning-crag-64182.herokuapp.com/api/restaurants/${props.id}`)
+        fetch(`https://restaurants-api-2021.herokuapp.com/api/restaurants/${props.id}`)
             .then(res => res.json())
             .then(data => {
                 setLoading(false);
